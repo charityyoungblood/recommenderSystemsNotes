@@ -16,9 +16,47 @@ Learning Objectives for Preferences and Ratings (Lesson Title)
   - Users display their PREFERENCES in a number of ways. Theses ways can be split into two categories 
     - Explicit Actions: where the user is taking an action for the purpose of telling either the system or other users of the system what they think about a particular item 
       - Rating
+        - One of the most common Rating interfaces is "Star Ratings" 
+        - Several design decisions (i.e. How many stars do you use? Do you use 1/2 stars)
+        - Research has shown the "1/2" stars don't give us any additional benefit, when it comes to analyzing that data
+        - Another Rating interface is "Up or Down" votes, or "Like or Not Like"
+        - "Up or Down" votes are common with short-lived items, or items that DO NOT have a long life span 
+        - "Up and Down" votes are very low cost to rate - the user only decides if they like the item/article or not, instead of having to process (think about) how many stars to give 
       - Review
       - Vote
+      - Other Interfaces (Occassionaly Used) to collect Preference Data:
+        - Continuous Scales: constrain users very little > these enable users to rate anywhere on a fairly wide ranging scale 
+        - Pairwise preference: these ask users to judge whether they like one item better than another, rather than just rate one item on an absolute scale  
+        - Hybrid
+        - Temporary
     - Implicit Actions: the user is NOT telling anything, but through their actions we can determine what they think about a particular item 
       - Click 
       - Purchase 
       - Follow 
+      
+4. When are ratings provided? - Particularly, when are the ratings provided in relation with when the user consumed the item
+  - Consumption ratings are provided during or after immediately experience an item (i.e. when you watch a Youtube video and you rate the video RIGHT AFTER you view it)
+  - Memory ratings are provided some time after the user experiences the item 
+  - Expectation ratings - the user has not experienced the item, this rating is based on what the user "expects" to get out of the item > Expectation ratings are usually used with high-cost items (i.e. house, car, etc)
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
