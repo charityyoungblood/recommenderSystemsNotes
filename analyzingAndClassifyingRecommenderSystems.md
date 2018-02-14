@@ -1,3 +1,3 @@
 <!-- Analyzation and Classification of Recommender Systems (Taxonomy) -->
 
-Learning 
+Learning Objectives for Predictions and Recommendations (Lesson Title)
