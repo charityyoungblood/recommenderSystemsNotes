@@ -50,7 +50,7 @@ Learning Objectives for Preferences and Ratings (Lesson Title)
 5. Difficulties with Ratings 
   - Noise
   - Preferences can change
-  - Different users 
+  
       
       
       
