@@ -6,6 +6,13 @@ Learning Objectives for Taxonomy of Recommenders (Lesson Title)
     - A specific overview of different recommendation algorithms 
   - To acquire a roadmap for the rest of the course, based on algorithms studied 
   
+Model of HOW a Recommender Works:
+  * Basic Model 
+   ** Users 
+   ** Items 
+   ** Ratings 
+   ** (Community)
+  
 1. Analytic Framework - 8 Dimensions of Analysis  
   a. Domain: What's being recommended? What is the content that is being recommended?
     - News, text, articles  
@@ -44,7 +51,25 @@ Learning Objectives for Taxonomy of Recommenders (Lesson Title)
     - Another aspect people are worried about is, vulnerability to a Recommender to external manipulation
     - Transparency of Recommenders - and the degree of which the individuals giving us data have a reputation that will allow us to trust them 
   g. Interfaces
-  h. Recommendation Algorithms
+    - What type of output are we getting?
+      - Are we getting predictions of specific scores?
+      - Are we getting recommendations for specific items? 
+      - Are we filtering a search list? 
+      - Is our presentation of the recommendation and/or prediction organic or explicit? 
+        - Our presentation type will lead into a discussion of different "styles" of interface 
+          - Agent: helping the user, critique where you can say "this isn't what I wanted, I was thinking something more along the lines of x"
+          - Discussion: search engine or tool
+    - What types of input are we receiving?
+      - Are you being asked specifically which items you like or how much you like an item on a scale? (Explicit)
+      - Are we taking implicit measures to see if you puchased something or how often you return to look at a page? 
+  
+h. Recommendation Algorithms - There are 4 types of Recommendation Algorithms 
+  - Non-Personalized Summary Statistics 
+  - Content Based Filtering 
+  - Collaborative Filtering 
+  - Others 
+  
+  
   
   
   
