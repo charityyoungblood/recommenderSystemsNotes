@@ -6,11 +6,16 @@ Learning Objectives for Taxonomy of Recommenders (Lesson Title)
     - A specific overview of different recommendation algorithms 
   - To acquire a roadmap for the rest of the course, based on algorithms studied 
   
-Model of HOW a Recommender Works:
+Model of HOW a Recommender Works: There are 3 Basic Concepts that EVERY Recommender needs 
   * Basic Model 
-   ** Users 
-   ** Items 
+   ** Users
+      - The PEOPLE in our system 
+      - The people who have preferences for items
+      - Users may serve as the source of data, as in case for Collaborative recommendation 
+   ** Items
+      - The products/service/vendor that we are choosing to recommend 
    ** Ratings 
+      - The things that 
    ** (Community)
   
 1. Analytic Framework - 8 Dimensions of Analysis  
