@@ -18,7 +18,7 @@ Learning Objectives for Taxonomy of Recommenders (Lesson Title)
         - OWL Learning Tips - education
         - ReferralWeb - expertise finder (education)
     - In some Domains, we are primarily interested in recommending NEW items  
-    - Google is a form of Recommender - it is "recommended" based on search term 
+    - Google is a form of Recommender - it is "recommending" websites based on search term 
   b. Purpose: in some cases, the purpose for recommendation is simple - it is an end in itself - We want you to BUY or CONSUME or otherwise take up the recommendation that we give you 
     - In other cases, the recommendations are aggregated as a form of education or a form of building community, and understanding whether recommendations are just come in and consume or are they part of a larger purpose helps us to tailor the recommender for the user's needs 
   c. Recommendation Context: What is the user doing at the time of recommendation? How does that context constrain the Recommender?
@@ -39,9 +39,11 @@ Learning Objectives for Taxonomy of Recommenders (Lesson Title)
     - Is the Recommender System honest? 
     - How much has the operator "built in" biases? - sometimes these biases are referred to as "Business Rules" 
     - In some cases, the business rules/biases make lots of sense and are consumer friendly 
+      - For example, some recommender systems will NOT recommend items that are out of stock 
+      - Another example, is a recommender would NOT recommend an item from another store or vendor 
     - Another aspect people are worried about is, vulnerability to a Recommender to external manipulation
     - Transparency of Recommenders - and the degree of which the individuals giving us data have a reputation that will allow us to trust them 
-  g. Interfaces 
+  g. Interfaces
   h. Recommendation Algorithms
   
   
