@@ -10,13 +10,17 @@ Model of HOW a Recommender Works: There are 3 Basic Concepts that EVERY Recommen
   * Basic Model 
    ** Users
       - The PEOPLE in our system 
-      - The people who have preferences for items
-      - Users may serve as the source of data, as in case for Collaborative recommendation 
-   ** Items
-      - The products/service/vendor that we are choosing to recommend 
+      - The PEOPLE who have preferences for items
+      - Users may serve as the SOURCE OF DATA, as in case for Collaborative recommendation 
+      - For EACH USER we may have a set of USER ATTRIBUTES (i.e. Demographics) as well as a USER MODEL (i.e. their preference for movie genre)
+  ** Items
+      - The PRODUCTS/SERVICES/VENDORS that we are choosing to recommend 
+      - For EACH ITEM we may have a set of PROPERTIES (i.e. what genre was that movie)
    ** Ratings 
-      - The things that 
+      - The things that EXPRESS OPINION in our system 
+      - Where USERS meet ITEMS are in the case of RATINGS 
    ** (Community)
+      - More broadly, when we take the users and the items together, we tend to think of having a "COMMUNITY" that expresses a space where all these OPINIONS make sense  
   
 1. Analytic Framework - 8 Dimensions of Analysis  
   a. Domain: What's being recommended? What is the content that is being recommended?
@@ -69,8 +73,14 @@ Model of HOW a Recommender Works: There are 3 Basic Concepts that EVERY Recommen
       - Are we taking implicit measures to see if you puchased something or how often you return to look at a page? 
   
 h. Recommendation Algorithms - There are 4 types of Recommendation Algorithms 
-  - Non-Personalized Summary Statistics 
+  - Non-Personalized Summary Statistics (and some cases these involve Product Associations)
+    - These use External Data from the community
+      - Would display recommendations/predictions as lists: Best-seller, Most Popular, Trending Hot 
+      - Or display as a Summary of Community Ratings (i.e. Best Liked (Zagat), Highest Rated Restuarant (Zagat)) 
   - Content Based Filtering 
+    - Users rate items and from those ratings, we build a model of user preferences against the item attributes
+      - This means, we can map the PRODUCTS you have RATED (music, movies, etc.) against the ATTRIBUTES of those products (i.e. actor, music genre, etc.)
+      - There are also "knowledge-based" Recommender Systems that use the item attributes to form a model of an item space and users navigate interactively to that space 
   - Collaborative Filtering 
   - Others 
   
