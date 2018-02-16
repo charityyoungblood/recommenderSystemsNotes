@@ -95,9 +95,21 @@ h. Recommendation Algorithms - There are 4 types of Recommendation Algorithms
       - User-User: 
         - You select a neighborhood of people with similar taste and use their opinions 
       - Item-Item: 
-        - You establish 
-      - Dimensionality Redcution 
-  - Others 
+        - You establish relationships among items through the ratings and use those items and your ratings of them to triangulate recommendations 
+      - Dimensionality Reduction:
+       - You create a lower dimensionality matrix (table) through mathematical techniques that compress the matrix, and then directly find a representation of "taste fit"
+    - Notes on Evaluations: When thinking about algorithms, in order to decide with algorithm to use, we'll have to have some way of evaluating them > There are many different types of Evaluations - which the course will cover including:
+      - Accuracy of predictions
+      - Usefulness of recommendations
+        - Correctness
+        - Non-obviousness
+        - Diversity - being able to deliver a diverse set of recommendations 
+        - Computational performance 
+      - understanding what you are using a Recommender FOR and how to EVALUATE it properly, will help you to pick the right one 
+  - Other Approaches to Recommenders 
+    - Interactive recommenders 
+      - critique based, or dialog based
+    - Hybrids of various techniques 
   
   
   
