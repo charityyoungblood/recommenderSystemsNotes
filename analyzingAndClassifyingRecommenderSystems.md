@@ -78,10 +78,25 @@ h. Recommendation Algorithms - There are 4 types of Recommendation Algorithms
       - Would display recommendations/predictions as lists: Best-seller, Most Popular, Trending Hot 
       - Or display as a Summary of Community Ratings (i.e. Best Liked (Zagat), Highest Rated Restuarant (Zagat)) 
   - Content Based Filtering 
-    - Users rate items and from those ratings, we build a model of user preferences against the item attributes
+    - Users rate items and from those ratings, we build a model of user preferences against the item attributes (properties, genres, etc.)
       - This means, we can map the PRODUCTS you have RATED (music, movies, etc.) against the ATTRIBUTES of those products (i.e. actor, music genre, etc.)
       - There are also "knowledge-based" Recommender Systems that use the item attributes to form a model of an item space and users navigate interactively to that space 
-  - Collaborative Filtering 
+      - Examples of Content Based Filtering include:
+        - Personalized news feeds 
+        - Artist or Genre music feeds 
+  - Collaborative Filtering (Personalized)
+    - This type uses the opinions of others, rathen than attribute data, to predict/recommend 
+    - We build on the idea of a user model that is a set of ratings and an item model that is our set of ratings 
+    - Using this method, all of our attributes and models can drop off of our diagram (see Lecture Taxonomy of Recommeders @12:00minutes for more details)
+    - What we have left is a "Common Core" - a sparse matrix of ratings and our goal is to either: 
+        - Fill in those missing values (predict)
+        - Select promising cells (cells refer to the "matrix" - see video) that might be ones that we may want to recommend (recommend)
+    - Types of Collaborative Filtering Techniques 
+      - User-User: 
+        - You select a neighborhood of people with similar taste and use their opinions 
+      - Item-Item: 
+        - You establish 
+      - Dimensionality Redcution 
   - Others 
   
   
