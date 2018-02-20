@@ -94,10 +94,60 @@ Learning Objectives
   
 12. Statistical Confidence Intervals 
   - Statistical inference provides means of computing confidence intervals of how CONFIDENT you are of the value of the mean or the expected likelihood that someone is going to rate something positively - this interval narrows as you get more and more evidence 
-  - Lower bound of statistical confidence interval (95%)
+  - Lower bound of statistical confidence interval (i.e. a confidence interval of 95%)
   - The choice of bound affects risk/confidence 
     - If you choose the lower bound you get a very CONSERVATIVE recommendation - you need a lot of evidence to consider something is good and you recommend based on the lower bound of your estimate of how good something is 
     - If you choose the upper bound, you get a recommender that is very willing to take risks on things that might be amazing, but you really don't have enough information yet to tell 
+    
+13. Domain Consideration: Time 
+  - How do we deal with the aspect of time playing a role? (We don't want to show the upvotes for old articles, or items that have short lifetimes (trends))
+  - We can use the net upvotes, polynomially decayed by age formula (Summary Statistics Lecture @15:04 minutes) - known as the WILSON SCORE
+  
+  - ***The WILSON SCORE confidence interval answers the question: Given the ratings I have, there is a 95% chance that the “real” fraction of positive ratings is at least what?***
+    - Other Applications of **WILSON SCORE** - The Wilson score confidence interval isn’t just for sorting, of course. It is useful whenever you want to know with confidence what percentage of people took some sort of action. For example, it could be used to:
+
+      - Detect spam/abuse: What percentage of people who see this item will mark it as spam?
+      - Create a “best of” list: What percentage of people who see this item will mark it as “best of”?
+      - Create a “Most emailed” list: What percentage of people who see this page will click “Email”?
+
+14. Can you predict with sophisticated score (i.e. can we use a damped mean as the aggregate preference that you show)? 
+  - YES, but be careful with how you present the rating so as not to create incorrect user expectation
+  - Be careful with transparency/scrutiny - if the average rating and damped mean don't match, this could cause problems with presentation
+    - If you display an 'average rating' for damped mean, and show ratings, users may be confused 
+    - Most important case (low ratings) also easiest to hand verify 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
         
         
         
