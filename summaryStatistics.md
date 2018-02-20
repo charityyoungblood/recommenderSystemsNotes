@@ -1,5 +1,11 @@
 <!-- Summary Statistics: Non-Personalized Recommender Technique -->
 
+Learning Objectives
+  - Understand several ways of computing and displaying predictions - in Non-personalized recommenders these take the form of "aggregate preferences"
+  - Understand how to rank items with sparse (maybe we don't have a lot of users who have rated an item), time-shifting data (where the relevance of data changes with respect to time)
+  - Understand several points in the design space for prediction and recommendation, and some of their tradeoffs 
+
+
 1. Computing Summary Statistics 
   - What should they mean? i.e. data points
     - Do we want the highest score to be the most popular restaurant?
@@ -24,4 +30,50 @@
 
 5. For ranking, one useful alternative is to average the percentage of ratings that score above or below a threshold
   - the users REALLY liked this item, or the users REALLY hated this item 
+  
+6. Personalization can address many of the limitations of these non-personalized summary statistics 
+    
+7. Example
+  - Reddit: a widely used, news aggregator site, where the purpose is to provide non-personalized recommendations of news articles to read, based on people upvoting stories that they like 
+
+8. How do we compute the aggregates we show and the ranking that we use for items? 
+  - Display Approaches 
+    - Showing average rating or upvote proportion
+      - Pros: 
+      - Cons: 
+    - Show net upvotes (upvotes - downvotes) or number of likes
+      - Pros:
+      - Cons:
+    - The percentage of people who have rated the item at least 4 stars (a positive rating)
+      - Pros:
+      - Cons:
+    - A full distribution with a histogram 
+      - Pros:
+      - Cons: 
+  - ***To consider which display approach to use in a particular site it's useful to think about the GOAL of the display***
+    - The PURPOSE of a PREDICTION or of showing aggregate preference, is to help users decide whether they want to buy/read/view the item 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
