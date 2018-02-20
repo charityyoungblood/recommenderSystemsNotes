@@ -1,5 +1,12 @@
 <!-- Non Personalized and StereoTyped Recommendations -->
 
+Learning Objectives for Non-Personalized, Weak and Stereotyped Recommendations
+  - Understand the value and drawbacks of non-personalized recommendations
+  - Be able to compute nonpersonalized and weakly personalized recommendations using 
+    - Aggregated preferences 
+    - Product associations 
+    - User demographics 
+
 1. Why Do We Want Non-Personalized Recommendations?
   - Effective for NEW USERS; since we don't know a lot about them, we CANNOT provide a PERSONALIZED recommendation
     - However, we still can make recommendations for products, that the new user will find useful and actionable 
@@ -25,4 +32,12 @@
   - Other Examples of Non-Personalized Recommendations
     - E-commerce ratings and review summaries (i.e. Amazon)
     - Box office charts 
-    - "Popular Now" on any news site 
+    - "Popular Now" on any news site - most news sites show a "most popular" list 
+    
+4. Weak Personalization
+  - Sometimes we may know a little about the user:
+    - Zipcode or location
+    - Age, gender, nationality, ethnicity 
+    - We can also do a little but of weak personalization depending on what item the user is currently looking at
+  - This information can be used for first-pass "STEREOTYPED" personalization
+  - Product association allow recommendations based on current page/item/context - we can recommend items that are "comaptible" with the product the user is currently viewing
