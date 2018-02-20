@@ -37,18 +37,18 @@ Learning Objectives
   - Reddit: a widely used, news aggregator site, where the purpose is to provide non-personalized recommendations of news articles to read, based on people upvoting stories that they like 
 
 8. How do we compute the aggregates we show and the ranking that we use for items? 
-  - Display Approaches 
+  - Displaying Aggregate Preference (Different Approaches) 
     - Showing average rating or upvote proportion
-      - Pros: 
-      - Cons: 
+      - Pros: Answers the questions "Of people who bothered to express an opinion, do they like it? How much do they like it? How many of them like it?"
+      - Cons: It doesn't show popularity (i.e. you may have an average rating of 5 stars, but only one person really liked that item) 
     - Show net upvotes (upvotes - downvotes) or number of likes
-      - Pros:
-      - Cons:
+      - Pros: Shows popularity
+      - Cons: No controversy
     - The percentage of people who have rated the item at least 4 stars (a positive rating)
-      - Pros:
-      - Cons:
+      - Pros: has a very straightforward interpretation - of the people who rated, how many gave 4 stars or more? 
+      - also deals with how different users will deal with ratings scales in different ways, some users may be more likely to rate things high and other tend to rate things lower 
     - A full distribution with a histogram 
-      - Pros:
+      - Pros: Can be complicated, but will give the full picture of ratings 
       - Cons: 
   - ***To consider which display approach to use in a particular site it's useful to think about the GOAL of the display***
     - The PURPOSE of a PREDICTION or of showing aggregate preference, is to help users decide whether they want to buy/read/view the item 
