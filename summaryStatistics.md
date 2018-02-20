@@ -57,11 +57,19 @@ Learning Objectives
 9. Ranking: How do we pick what goes at the top of the list?
   - You DO NOT have to RANK by prediction or the same aggregate preference that you show on the site
     - Why NOT rank by score?
-      - Too little data (i.e. only ONE 5 star rating)
+      - Too little data (i.e. only ONE 5 star rating for one product and another product which has more reviews, but less stars)
       - Score may be multivariate 
       - Domain or business considerations
-        - Item may be old 
-        - Item is 'unfavored'
+        - Item may be old - in terms of news sites, you DO NOT want to display to users the most popular news article from last year - it has to be current  
+        - Item is 'unfavored' - for business reasons, you may want to favor some items over others 
+  
+10. Ranking Considerations 
+  - There are a few things to consider when you are computing the rank 
+    - Confidence: how confident are you that this item is as good as the score says it is? With lower user averages (i.e. one user who rated 5 stars) - you won't have as much confidence as the product really being excellent vs. if you had 200 people who rated it 5 stars 
+  
+    Risk Tolerance: This is going to depend based on the application
+      - Is the application one that benefits from high-risk, high-reward recommendation - i.e. there's a chance the user may REALLY love this item, but there is also a high probably they won't like it 
+      - Is the application better for a more conservative recommendation 
         
         
         
