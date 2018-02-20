@@ -19,3 +19,10 @@
   - Aggregate Opinion: Zagat Survey - aggregated opinions about restaurants from individual reviewers
     - Produced 30-point aggregate ratings on multiple dimensions
     - Textual review compiled from individual reviewer reports 
+    - The Zagat Survey is an example of EXPLICIT feedback (data), where users are providing detailed reviews on food, decor, service and cost 
+    - The Billboard Music Chart System, is an example of IMPLICIT feedback (data), where it tracks how many times a song or an album is played on the radio, sold on iTunes
+      - The Billboard charts aggregate these kinds of data points in order to produce charts of the currently most popular songs and albums
+  - Other Examples of Non-Personalized Recommendations
+    - E-commerce ratings and review summaries (i.e. Amazon)
+    - Box office charts 
+    - "Popular Now" on any news site 
