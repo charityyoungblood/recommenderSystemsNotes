@@ -9,4 +9,10 @@
     - Race/Ethnicity
     - Socio-Economic Status 
     - Location
-  - If I can label users, who we know little about, with certain attributes, can I do a better job making recommendations  for the items they would like by identifying what's popular in THEIR DEMOGRAPHIC
+  - If I can label users, who we know little about, with certain attributes, can I do a better job making recommendations  for the items they would like by identifying what's popular in THEIR DEMOGRAPHIC?
+  
+2. How do we use Demographics?
+  - We start by identifying available demographics 
+    - Many of the demographic attributes have to be "sub-divided" into buckets that could provide more relevancy 
+      Ex: Age may be grouped by 21-35, 36-45, etc
+      Ex: Zipcodes can be transformed into socio-economic status, urban and rural status, dominant ethnicities, etc
