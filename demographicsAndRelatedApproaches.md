@@ -49,6 +49,14 @@
       - You can also model the UNKNOWN DEMOGRAPHICS separate from the other users until you can learn more about their tastes and preferences 
   - If getting demographics is useful, one of your KEY STEPS is getting data on users, which can be collected from various sources including advertising networks, loyalty clubs, surveys, etc. 
   - In some cases, people have successfully predicted demographics from data (i.e. Facebook data - due to the amount of public disclosure that occurs on Facebook, in postings, etc, it's relativey easy to predict certain things from that Facebook data, including demographic data and psychographic data (personality indicators, and information about someone's psyche)
+  
+6. Limits and Power of Demographics 
+  - Part of the reason that demographics work so well, in most cases, is products and content is created with a particular audience in mind (target market)
+    - This includes television shows, magazines, personal products, etc where advertisements are sold
+    - Traditionally, Advertisers drive content so that that content could be used to pitch advertisements for products and generate sales 
+  - Demographics can FAIL MISERABLY for people's who tastes DO NOT match their demographics 
+    Ex: someone who doesn't listen to the type of music their peers listen 
+  - Demographics also FAIL when the product is CROSS CUTTING - some products need to appeal very broadly, and if they are NOT TARGETED they cannot be used (i.e. paper, pens)
       
     
     
