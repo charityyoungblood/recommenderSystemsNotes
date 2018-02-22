@@ -17,3 +17,12 @@
     - Many of the demographic attributes have to be "sub-divided" into buckets that could provide more relevancy 
       Ex: Age may be grouped by 21-35, 36-45, etc
       Ex: Zipcodes can be transformed into socio-economic status, urban and rural status, dominant ethnicities, etc
+      
+3. Exploring your data
+  - Once you've found relevant demographic attributes to use for your recommendations, it's time to start exploring 
+  - At this stage, most people use one of two approaches: 
+    - Plot using Scatterplots
+      - When scatter plots are similar to a cloud, i.e. NOT in something resembling a tight line, there is a relationship but it's pretty diffuse (not concentrated)
+      - If a scatter plot IS similar to a tight line, there is probably a VERY CLOSE relationship 
+      - Here you can PLOT different things about the popularity of a product category/product and plot them against demographic attributes (SEPARATELY) and see if you have any potential to do a better job personalizing 
+    - Create hypothesis over particular demographic attributes that should relate and they run statistical correlations against these findings 
