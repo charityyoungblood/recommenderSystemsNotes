@@ -33,4 +33,43 @@
       - If I'm 3 times more likely to buy nude shoes after I've bought a polka dot dress, then I am to buy nude shoes without the polka dot dress, then there's a greater probability that it's relevant in this particular context 
       - This may be a better recommendation, then just trying to sell nude pumps 
   - Association Rule Mining - a technique that comes before Recommender Systems started, gave us a "Lift Metric"
-    - 
+    - The "Lift" associated with a pair of products being together is the probability that someone would buy or consume both of them, divided by the product of their individual probabilities (@9:03 in lecture)
+    - This is a "Non-Directional Association" - it's not where "X" makes "Y" more likely or "Y" makes "X" more likely, but looks at how they make EACH OTHER more likely 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
