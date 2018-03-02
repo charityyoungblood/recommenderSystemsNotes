@@ -53,11 +53,27 @@ Learning Objectives
   - We can then query and navigate the cases based on examples or attributes and retrieve relevant cases 
   - When we have a "case library" there are a lot of ways we can accomplish this 
   - Example of "Ask Ida" (video @13:10)
-  - Case-Based Recommendation would be used in ephermeral cases - i.e. what the user is CURRENTLY shopping for/interested in 
+  - Case-Based Recommendation would be used in ephermerally-personalized experiences - i.e. what the user is CURRENTLY shopping for/interested in 
+  - These are also much easier to explain to a user (i.e. selecting "this" over "that")
+  
+  - Challenges and Drawbacks to Content-Based Techniques 
+    - They depend on well-structured attributes that align with preferences (this is hard to use for something with an "emotional" connection, how the product makes the user feel, as in selecting attributes/keywords that describe their taste in art or music)
+    - They depend on having a reasonable distribution of attributes across items and vice versa (i.e. if all the items are almost identical, in terms of attributes - this technique would not be useful)
+    - Content-Based Recommendations are also LESS LIKELY to find SURPRISING recommendations/connections (i.e. chilli pepper oil with pecans)
+    - It is also harder to find COMPLEMENTS or items that COMPLEMENT an item, than it is to find substitutes (this is not as hard to do with fashion - as we generally know what will complement a look)
   
 7. Knowledge-Based Recommender 
   - If we have a library of examples ("cases") we can navigate from item to item without having to ask the user a survey of questions 
   - Example of this is FindMe Systems (i.e. Entree at video 16:46)
+  
+8. Take Aways
+  - There are MANY ways to recommend based on content using product attributes 
+    - Long Term Recommendations: can be implemented by building profiles of content preferences (via the use of keywords)
+    - Short Term Recommendations: can be implemented by building a database of cases (items) and navigating through those cases 
+  - Content-Based techniques work without a large set of users (but you will need item data)
+  - Content Based Recommeders are good at finding SUBSTITUTES 
+  - " " good at helping users navigate through items to purchase 
+  - " " are easy to explain to users 
 
 
 
