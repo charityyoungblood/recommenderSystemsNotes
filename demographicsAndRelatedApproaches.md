@@ -57,6 +57,7 @@
   - Demographics can FAIL MISERABLY for people's who tastes DO NOT match their demographics 
     Ex: someone who doesn't listen to the type of music their peers listen 
   - Demographics also FAIL when the product is CROSS CUTTING - some products need to appeal very broadly, and if they are NOT TARGETED they cannot be used (i.e. paper, pens)
+  - Demographics will NEVER be a perfect solution, but they can be a VALUABLE and effective solution, depending on the product and application 
       
     
     
