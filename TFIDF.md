@@ -18,5 +18,10 @@ Learning Objectives:
     - Term Frequency: is how often does the term you're talking about appear in the document
       - Example: In Movies - you would use "keywords" like actors names, or director names; or "tags" which are words like "suspense", or "car crash", or "New York" 
     - Inverse Document Frequency: how rare is it for a document to have this term(s) or for this movie to have this "tag" 
-  - We compute this by the number of documents, divided by the total number of documents with the keyword term or tag
-      # of documents / # of total documents with term
+      - We compute this by the number of documents, divided by the total number of documents with the keyword term or tag
+     log(# of documents / # of total documents with term)
+     
+3. What does TFIDF do? 
+  - When applied TFIDF will automatically "demote" common terms and it attempts to promote core terms (frequently used in the document) over incidental ones
+  - TFIDF fails if the core term/concept isn't actually used much, as in the case of your name on a legal document/contract, 
+  - TFIDF also fails when people use "poor" search terms (i.e. black for black dress - the keyword "black" will pull up all sorts of items and results that have NOTHING to do with a black dress)
