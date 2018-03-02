@@ -45,6 +45,19 @@ Learning Objectives
   
 5. How Do We Use preferences We've Gathered?
   - At this point, we could add up the "likes" and "dislikes" 
+  - We could also figure out WHICH KEYWORDS are MORE RELEVANT and LESS RELEVANT - what is the weight of sleeve length to designer? will the user care more about the designer or the sleeve length?
+  - TFIDF: Term Frequency Inverse Document Frequency - this looks at the question of how important or how frequent is this description in the current product, but also how often does it occur across our entire set
+  
+6. Case-Based Recommendation
+  - The concept of Case-Base Recommendation is we have a database of examples/"cases", i.e. specific products, that we can structure around a set of RELEVANT attributes (i.e. dress color, sleeve length, designer)
+  - We can then query and navigate the cases based on examples or attributes and retrieve relevant cases 
+  - When we have a "case library" there are a lot of ways we can accomplish this 
+  - Example of "Ask Ida" (video @13:10)
+  - Case-Based Recommendation would be used in ephermeral cases - i.e. what the user is CURRENTLY shopping for/interested in 
+  
+7. Knowledge-Based Recommender 
+  - If we have a library of examples ("cases") we can navigate from item to item without having to ask the user a survey of questions 
+  - Example of this is FindMe Systems (i.e. Entree at video 16:46)
 
 
 
