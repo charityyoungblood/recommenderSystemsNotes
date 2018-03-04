@@ -15,11 +15,13 @@ Learning Objectives:
     
 2. TFIDF Weighting - this is a strategy of weighting that comes from the field of information retrieval 
   - This stands for Term Frequency * Inverse Document Frequency 
-    - Term Frequency: is how often does the term you're talking about appear in the document
+    - Term Frequency: is how often/how many times does the term/tag appear in the document
       - Example: In Movies - you would use "keywords" like actors names, or director names; or "tags" which are words like "suspense", or "car crash", or "New York" 
-    - Inverse Document Frequency: how rare is it for a document to have this term(s) or for this movie to have this "tag" 
+    - Inverse Document Frequency: how rare is it for a document to have this term(s) or for this movie to have this "tag" across our entire collection 
       - We compute this by the number of documents, divided by the total number of documents with the keyword term or tag
      log(# of documents / # of total documents with term)
+    - We multiply these two values together and we get a WEIGHT - that weight is assigned to the particular search term/tag
+      - the BIGGER the weight is, the more we factor that in when we're deciding whether we have a match 
      
 3. What does TFIDF do? 
   - When applied TFIDF will automatically "demote" common terms and it attempts to promote core terms (frequently used in the document) over incidental ones
