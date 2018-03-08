@@ -24,14 +24,16 @@ Learning Objectives:
       - the BIGGER the weight is, the more we factor that in when we're deciding whether we have a match 
      
 3. What does TFIDF do? 
-  - When applied TFIDF will automatically "demote" common terms and it attempts to promote core terms (frequently used in the document) over incidental ones
+  - When applied TFIDF will automatically "demote" common terms and it attempts to promote core terms (a "core term" means it's a ter that is frequently used in the document) over incidental ones
   - TFIDF fails if the core term/concept isn't actually used much, as in the case of your name on a legal document/contract, 
   - TFIDF also fails when people use "poor" search terms (i.e. black for black dress - the keyword "black" will pull up all sorts of items and results that have NOTHING to do with a black dress)
   
 4. How does TFIDF Weight Apply to Content-Based Filtering Recommendations?
   - Remember what our goal is with filtering: We want to BUILD a PROFILE of user content preferences and we want to build that profile, most of the time, by taking their implicit or explicit ratings of a set of objects and processing those objects to build this profile 
-  - What TFIDF does, as a concept, is create a profile of a document that says "here's an indicator for each keyword, tag  or term in the document of how important this term is as a descriptive term for this document"
-  - By having that profile of what the content is about, we then have a "weighted vector" that we can fold in to the user profile when we find out if the user "likes" or "dislikes" this particular item 
+  - What TFIDF does, as a concept, is create a profile of a document that says "here's an indicator for each keyword, tag or term in the document of HOW IMPORTANT this term IS as a descriptive term for this document"
+  - By having that profile of what the content is about, we then have a "weighted vector" that we can fold in to the user profile when we find out if the user "likes" or "dislikes" this particular item
+    - Example: If someone liked "Titanic", we would look at the keyword associated with the movie, actor: Leonardo Dicaprio, genre: Romance, etc - and we would MODEL that as a vector, and that vector will be folded in to the user's profile 
+    
   
   
   
