@@ -45,7 +45,21 @@ Learning Objectives:
     - Because their queries could have weighted or multiply occuring terms 
     - BM25 also included "document length"  
     - BM25 has a lot of "tweaking constants" in it - depending on how you set them, they "ignore" or "amplify" different factors, which has led to a whole family of BM variants i.e. BM11, BM13 
-  
+    
+6. "Search" is MUCH Harder
+  - This concept in "search" as well as Content Filtering can be MUCH HARDER than simple processing of vectors of terms 
+  - Some of the elements that make search hard, are as follows:
+    - Phrases and n-grams: sequences of words that happen together 
+      Ex: If we were querying the phrase: "computer science", this would not be the same as documents including "computer" and "science"
+      - Adjacency: is one factor that is often used with search terms, to see if they are "close to each other" in the query
+    - Significance in Documents: 
+      - The occurrence of different terms, whether tags or words in a document, may have DIFFERENT SIGNIFICANCE depending on where or how it's applied 
+    - General Authority of a Document
+      - This also referrs to the Value of a Document or General Rating or prediction score for a movie or other piece of content
+      - there are many complex strategies to rate certain documents as "good"
+      - Pagerank and similar approaches 
+   - Implied Content: what about the cases where the document doesn't have the words, tag, key terms that the article/document is about?
+      - One way to find out if a document is relevant when it does NOT have the keyword/tag, is to follow the links on the page or see the page's usage 
   
   
   
