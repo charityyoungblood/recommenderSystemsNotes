@@ -33,7 +33,35 @@ Learning Objectives:
   - What TFIDF does, as a concept, is create a profile of a document that says "here's an indicator for each keyword, tag or term in the document of HOW IMPORTANT this term IS as a descriptive term for this document"
   - By having that profile of what the content is about, we then have a "weighted vector" that we can fold in to the user profile when we find out if the user "likes" or "dislikes" this particular item
     - Example: If someone liked "Titanic", we would look at the keyword associated with the movie, actor: Leonardo Dicaprio, genre: Romance, etc - and we would MODEL that as a vector, and that vector will be folded in to the user's profile 
-    
+
+5. Variants and Alternatives 
+  - There are a lot of "tweaks" and changes that can be implemented to make TFIDF better in different domains 
+  - In certain areas, TF (term frequency) is mostly ignored and turned into a boolean and measured by either the term "appearing" or "not appearing" (this could be displayed as 0 or 1)
+    - In this case, we only care about the terms that are "rare" - effectively we have inverse document frequency * occurence 
+  - Some applications use variants on TF (term frequency)
+  - In cases where TF are LARGE, they are often logorithmically adjusted (i.e. log base 10(tf + 1))
+  - In cases where the particular collections of objects or metadata are very WIDELY VARIED in size, you'll often find TF "normalized" - in this case, term frequency would be divided by document length
+  - BM25: A ranking function/weighting system that was used by Okapi search engines, which brought a lot of these elements together including term frequency in the document, and how often the term appears in the "query" 
+    - Because their queries could have weighted or multiply occuring terms 
+    - BM25 also included "document length"  
+    - BM25 has a lot of "tweaking constants" in it - depending on how you set them, they "ignore" or "amplify" different factors, which has led to a whole family of BM variants i.e. BM11, BM13 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
