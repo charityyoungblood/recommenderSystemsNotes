@@ -10,5 +10,14 @@ Learning Objectives: (Lecture Title: Content Based Filtering - Deep Dive)
   ## To understand key variants in implementing CBF recommenders, and their strengths and weaknesses
   
 1. Keyword Vector 
-  - a "Keyword Vector" starts with the notion that we can define a multi-dimensional "content space", based on the universe of all possible keywords 
-  - 
+  - a "Keyword Vector" starts with the notion that we can define a multi-dimensional "content space", based on the universe of ALL possible keywords 
+  - Those keywords may be a "defined vocabulary" - for clothing, we may decided that the things that describe maxi skirts are "flowy", "long", "easy"
+    - in this above example, every "flowy", "long", and "easy" keyword/tag is a DIMENSION in the CONTENT SPACE of CLOTHING - EACH KEYWORD has a DIMENSION 
+    - Each item has a "position" in that space and that POSITION defines a VECTOR, which is HOW MUCH is this particular skirt "flowy", and HOW MUCH of the skirt is "easy", etc. - each KEYWORD carries a certain WEIGHT
+  - Every USER will have a taste profile or MANY taste profiles, that are vectors in that space 
+    - Ex: One user may like "flowy" and "easy" maxi skirts that are more on the "flowy" side and less on the "easy" side
+  - The MATCH between user preference and items is measured by how closely the two vectors align 
+    - In general, we make these vectors the SAME LENGTH - so we are looking at this multi-dimensional angle 
+  - In practice, we may NOT want to have an UNLIMITED amount of keywords - we may choose to LIMIT/COLLAPSE the keyword space 
+    - Stem: a common technique of NLP (Natural Language Processing) - we'll take words that have different endings, but the same "root" and collapse them together - Ex: "computer", "computing", "compute" would all be ONE keyword 
+    - Stop: There are "stop" words or phrases that are so COMMON they have no meaning in telling us anything i.e. "the" or "and" 
