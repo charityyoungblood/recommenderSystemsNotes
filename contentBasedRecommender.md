@@ -32,3 +32,32 @@ Learning Objectives: (Lecture Title: Content Based Filtering - Deep Dive)
       ## How often does the keyword appear in relation to the document length? 
   - By the time we've figured out each keyword, we'll have a vector of "relative strengths" and we'd want to NORMALIZE that vector, so that we could come up with something of unit length to compute with 
   - If a tag is "descriptive" it may be more relevant i.e. "exciting" for movie tag/keyword 
+  
+3. When talking about features/tags/terms:
+  -  We could have a case where each individual tag "t" which is an element of the set of tags "T" is either "applied"  to an item or "not applied"   
+    - T sub i could be the "subset" of tags applied to item "i", or we could represent that as a vector "t" sub "i", which is a zero-one vector of whether each tag is "applied" or "not applied"
+  - If USERS can apply tags to items, each one and individual time, we could represent "t" sub "ui" as a "tag application" of a particular tag by a user to an item 
+  - We also could have cases where tags are "multiply applied" - such as applied by users or by algorithms, in this case, we would make "t" sub "i" a WEIGHTED vector of tags 
+    - Example: 
+      ## Clothing attributes: if a skirt is BLUE does is matter if BLUE appears in the description 6 times or one time? or size? Do we care about how OFTEN blue appears? 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
