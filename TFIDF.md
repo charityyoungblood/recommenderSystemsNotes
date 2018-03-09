@@ -58,7 +58,7 @@ Learning Objectives:
       - This also referrs to the Value of a Document or General Rating or prediction score for a movie or other piece of content
       - there are many complex strategies to rate certain documents as "good"
       - Pagerank and similar approaches 
-   - Implied Content: what about the cases where the document doesn't have the words, tag, key terms that the article/document is about?
+   - Implied Content: what about the cases where the document doesn't have the words, tag, key terms that the article/document is about? where the content is IMPLIED
       - One way to find out if a document is relevant when it does NOT have the keyword/tag, is to follow the links on the page or see the page's usage 
   
   
