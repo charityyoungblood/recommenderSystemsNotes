@@ -21,3 +21,14 @@ Learning Objectives: (Lecture Title: Content Based Filtering - Deep Dive)
   - In practice, we may NOT want to have an UNLIMITED amount of keywords - we may choose to LIMIT/COLLAPSE the keyword space 
     - Stem: a common technique of NLP (Natural Language Processing) - we'll take words that have different endings, but the same "root" and collapse them together - Ex: "computer", "computing", "compute" would all be ONE keyword 
     - Stop: There are "stop" words or phrases that are so COMMON they have no meaning in telling us anything i.e. "the" or "and" 
+    
+2. How Do We Represent An Item Through A Keyword Vector?
+  - The hard decisions start when you have to represent an "item" as a "keyword vector" 
+  - How will we represent an item's relationship to each keyword? 
+    ## Is it a simple 0/1 - meaning either the keyword applies or it doesn't?
+    ## Is it a simple occurrence count - how many times does this keyword occur?
+    ## Should we use something like TFIDF, where we'll count the occurrences times some inverse document frequency term
+    ## There are other variants to consider, including: 
+      ## How often does the keyword appear in relation to the document length? 
+  - By the time we've figured out each keyword, we'll have a vector of "relative strengths" and we'd want to NORMALIZE that vector, so that we could come up with something of unit length to compute with 
+  - If a tag is "descriptive" it may be more relevant i.e. "exciting" for movie tag/keyword 
