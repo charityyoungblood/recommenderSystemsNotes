@@ -40,7 +40,9 @@ Learning Objectives: (Lecture Title: Content Based Filtering - Deep Dive)
   - We also could have cases where tags are "multiply applied" - such as applied by users or by algorithms, in this case, we would make "t" sub "i" a WEIGHTED vector of tags 
     - Example: 
       ## Clothing attributes: if a skirt is BLUE does is matter if BLUE appears in the description 6 times or one time? or size? Do we care about how OFTEN blue appears? 
-  
+
+4. From Items To User Profiles 
+   - 
   
   
   
